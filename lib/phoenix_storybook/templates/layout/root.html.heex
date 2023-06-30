@@ -29,7 +29,7 @@
     <style><%= raw(makeup_stylesheet(@conn)) %></style>
   </head>
 
-  <body class={["lsb lsb-max-w-full lsb-overflow-hidden", wait_for_icons?(@conn)]}>
+  <body class="lsb lsb-max-w-full lsb-overflow-hidden">
     <%= @inner_content %>
   </body>
 </html>
